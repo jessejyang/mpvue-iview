@@ -24,15 +24,15 @@
     <div>这是一个无标题的对话框</div>
 </i-modal>
 
-<i-modal title="支付" :visible="visible3" :actions="actions3" @click="handleClick3">
+<i-modal title="支付" :visible="visible3" :actions="actions3" @iclick="handleClick3">
     <div>请选择支付方式</div>
 </i-modal>
 
-<i-modal title="纵向排列的按钮" :visible="visible4" :actions="actions4" :action-mode="vertical" @click="handleClick4">
+<i-modal title="纵向排列的按钮" :visible="visible4" :actions="actions4" :action-mode="vertical" @iclick="handleClick4">
 
 </i-modal>
 
-<i-modal title="删除确认" :visible="visible5" :actions="actions5" @click="handleClick5">
+<i-modal title="删除确认" :visible="visible5" :actions="actions5" @iclick="handleClick5">
     <div>删除后无法恢复哦</div>
 </i-modal>
 
