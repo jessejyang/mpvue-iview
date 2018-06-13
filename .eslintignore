@@ -1,0 +1,5 @@
+build/*.js
+config/*.js
+scripts
+examples
+iview
