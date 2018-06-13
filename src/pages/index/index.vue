@@ -3,10 +3,8 @@
 <div class="logo">
     <img src="/static/logo.png" mode="aspectFit"/>
 </div>
-<i-panel title="布局">
-    <i-cell-group>
-        <i-cell title="Layout 栅格布局" is-link url="/pages/addr/index"></i-cell>
-    </i-cell-group>
+<i-panel class="cell-panel-demo">
+    <i-cell title="项目地址" value="https://github.com/JJJYY/mpvue-iview"></i-cell>
 </i-panel>
 <i-panel title="布局">
     <i-cell-group>
