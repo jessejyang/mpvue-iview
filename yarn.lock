@@ -2844,9 +2844,9 @@ ignore@^3.3.3, ignore@^3.3.5, ignore@^3.3.6:
   version "3.3.8"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.8.tgz#3f8e9c35d38708a3a7e0e9abb6c73e7ee7707b2b"
 
-import-weapp-component@^4.5.1:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/import-weapp-component/-/import-weapp-component-4.5.1.tgz#20b70b199b059c860bf1ef4971cca5dec40db7d2"
+import-weapp-component@^4.5.4:
+  version "4.5.4"
+  resolved "http://registry.npm.taobao.org/import-weapp-component/download/import-weapp-component-4.5.4.tgz#6524e4f7380fe2887e99bb4b1b83c70921197a67"
   dependencies:
     cacache "^10.0.4"
     find-cache-dir "^1.0.0"

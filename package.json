@@ -43,7 +43,7 @@
     "glob": "^7.1.2",
     "html-webpack-plugin": "^3.2.0",
     "http-proxy-middleware": "^0.18.0",
-    "import-weapp-component": "^4.5.1",
+    "import-weapp-component": "^4.5.4",
     "mpvue-loader": "^1.0.13",
     "mpvue-template-compiler": "^1.0.11",
     "mpvue-webpack-target": "^1.0.0",
