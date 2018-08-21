@@ -1,3 +1,5 @@
+## `mpvue-loader`更新后`json`改为直接`copy`，目前对高版本`mpvue`不适用 
+
 <p align="center">
     <a href="http://mpvue.com/">
         <img width="200" src="http://mpvue.com/assets/logo.png">
