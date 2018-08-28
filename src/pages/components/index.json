@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "组件中引用 Button",
+  "usingComponents": {
+    "i-button": "/iview/button/index",
+    "i-panel": "/iview/panel/index",
+    "i-message": "/iview/message/index"
+  }
+}

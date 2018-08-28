@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Message 全局提醒",
+  "usingComponents": {
+    "i-message": "/iview/message/index",
+    "i-button": "/iview/button/index"
+  }
+}

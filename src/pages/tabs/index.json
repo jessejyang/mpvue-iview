@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Tabs 标签页",
+  "usingComponents": {
+    "i-tabs": "/iview/tabs/index",
+    "i-tab": "/iview/tab/index",
+    "i-panel": "/iview/panel/index"
+  }
+}

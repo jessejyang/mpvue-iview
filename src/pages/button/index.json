@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "usingComponents": {
+    "i-button": "/iview/button/index",
+    "i-panel": "/iview/panel/index"
+  }
+}

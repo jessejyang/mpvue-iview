@@ -27,7 +27,7 @@
 <i-panel title="滚动"></i-panel>
 
 <i-tabs :current="current_scroll" scroll @change="handleChangeScroll">
-    <i-tab key="tab1" title="选项1"></i-tab>
+    <i-tab key="tab1" i-class='class-test' title="选项1"></i-tab>
     <i-tab key="tab2" title="选项2"></i-tab>
     <i-tab key="tab3" title="选项3"></i-tab>
     <i-tab key="tab4" title="选项4"></i-tab>
@@ -68,4 +68,12 @@ export default {
 }
 </script>
 
+<style>
+.class-test {
+  width: 300px!important;
+}
+.class-test .i-badge {
+  color: red!important;
+}
+</style>
 

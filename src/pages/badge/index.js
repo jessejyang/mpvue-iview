@@ -3,14 +3,3 @@ import App from './index.vue'
 
 const app = new Vue(App)
 app.$mount()
-
-export default {
-  config:
-{
-  'navigationBarTitleText': 'Badge 徽章',
-  'usingComponents': {
-    'i-badge': '/iview/badge/index'
-  }
-}
-
-}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Page 分页",
+  "usingComponents": {
+    "i-page": "/iview/page/index",
+    "i-icon": "/iview/icon/index",
+    "i-panel": "/iview/panel/index"
+  }
+}

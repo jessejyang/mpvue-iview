@@ -3,8 +3,10 @@
 <i-panel title="基础用法">
     <i-input :value="value1" title="收货人" autofocus placeholder="名字" />
     <i-input :value="value2" type="number" title="联系电话" placeholder="请输入手机号" />
-    <i-input :value="value3" type="textarea" title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
+    <i-input v-model="value4" type="textarea" title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
     <i-input :value="value4" title="用户信息" disabled />
+    <input v-model="value4" type="text">
+    <div v-model="value4" type="text"></div>
 </i-panel>
 
 <i-panel title="无标题输入框">
@@ -30,8 +32,16 @@ export default {
       Object.keys(data).forEach(key => {
         this[key] = data[key]
       })
+    },
+    value3change () {
+      console.log(this.value3)
     }
 
+  },
+  watch: {
+    value3 () {
+      console.log(111)
+    }
   }
 
 }

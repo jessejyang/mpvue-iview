@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "tag",
+  "usingComponents": {
+    "i-tag": "/iview/tag/index"
+  }
+}

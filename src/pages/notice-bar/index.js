@@ -3,16 +3,3 @@ import App from './index.vue'
 
 const app = new Vue(App)
 app.$mount()
-
-export default {
-  config:
-{
-  'navigationBarTitleText': 'NoticeBar 通告栏',
-  'usingComponents':
-    {
-      'i-panel': '/iview/panel/index',
-      'i-notice-bar': '/iview/notice-bar/index'
-    }
-}
-
-}

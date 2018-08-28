@@ -6,6 +6,9 @@
 <i-panel class="cell-panel-demo">
     <i-cell title="项目地址" value="https://github.com/JJJYY/mpvue-iview"></i-cell>
 </i-panel>
+<i-panel title="mpvue 引用原生页面">
+  <i-cell title="小程序原生页面" is-link url="/pages/native/index"></i-cell>
+</i-panel>
 <i-panel title="mpvue组件中引用">
   <i-cell title="import" is-link url="/pages/components/index"></i-cell>
   <i-cell title="Slot" is-link url="/pages/slot/index"></i-cell>

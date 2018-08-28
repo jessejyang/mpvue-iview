@@ -7,7 +7,6 @@
 
 <script>
 export default {
-
   methods: {
     setData (data) {
       Object.keys(data).forEach(key => {

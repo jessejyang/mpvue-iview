@@ -1,0 +1,2 @@
+<view class="font">{{ msg }}</view>
+<view class="font">{{ tips }}</view>
