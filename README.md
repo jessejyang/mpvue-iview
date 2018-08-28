@@ -1,3 +1,9 @@
+<p align="center">
+  <img width="200" src="https://raw.githubusercontent.com/JJJYY/mpvue-iview/master/static/qrcode.jpg">
+</p>
+
+----------
+
 > 增加直接跳转到原生页面的支持
 > 适配了高版本的`mpvue`及`mpvue-loader`，`import-weapp-component`增加了支持直接拷贝的功能
 > 详细请看项目中的`pages/native/index`
@@ -11,13 +17,23 @@ new ImportComponent({
 })
 ```
 
+#### 关于项目的一些说明：
+1. `mpvue`中引用小程序组件可以将组件直接拷贝到`static`目录来实现，这个插件有什么意义?
+> 总的来说原理相同，都是拷贝的（事实上插件也是从`copy-webpack-plugin` fork 的），差别在与`import-weapp-component`增加了对组件的自动引入，而不用没引用一个拷贝一次（如果使用组件库，一次性拷贝，用不到的组件会增加包体积），另外在最新版本中增加了对`mpvue`混合开发的支持（即增加对页面拷贝的支持，原理与组件相同），可以对老项目的平稳过渡有些作用。
+
+2. `mpvue`组件中如何引用小程序组件？
+> 这个暂时无法支持，`mpvue`并没有用原生`Component`机制，也不会有`json`生成
+
+3. 如何在`mpvue`中修改原生组件样式？
+> 这个问题需要看原生组件是否支持，另外如果支持，请不要把样式写到`scope`中，因为`mpvue-loader`会给样式增加唯一`data-scope`。
+
 <p align="center">
-    <a href="http://mpvue.com/">
-        <img width="200" src="http://mpvue.com/assets/logo.png">
-    </a>
-    <a href="https://weapp.iviewui.com">
-        <img width="200" src="https://file.iviewui.com/weapp-logo.svg">
-    </a>
+  <a href="http://mpvue.com/">
+    <img width="200" src="http://mpvue.com/assets/logo.png">
+  </a>
+  <a href="https://weapp.iviewui.com">
+    <img width="200" src="https://file.iviewui.com/weapp-logo.svg">
+  </a>
 </p>
 
 ## 简介
