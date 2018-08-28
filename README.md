@@ -1,4 +1,15 @@
-## `mpvue-loader`更新后`json`改为直接`copy`，目前对高版本`mpvue`不适用 
+> 增加直接跳转到原生页面的支持
+> 适配了高版本的`mpvue`及`mpvue-loader`，`import-weapp-component`增加了支持直接拷贝的功能
+> 详细请看项目中的`pages/native/index`
+
+配置文件修改：
+```js
+// webpack.base.conf.js
+new ImportComponent({
+  src: path.resolve(__dirname, '../src'),
+  native: true
+})
+```
 
 <p align="center">
     <a href="http://mpvue.com/">
